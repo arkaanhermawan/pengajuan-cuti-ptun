@@ -98,7 +98,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ['Cuti Tahunan', 'Cuti Besar','Cuti Cakit','Cuti Melahirkan','Cuti Karena Alasan Penting','Cuti Diluar Tanggungan Negara'],
+        labels: ['Cuti Tahunan', 'Cuti Besar','Cuti Sakit','Cuti Melahirkan','Cuti Karena Alasan Penting','Cuti Diluar Tanggungan Negara'],
         datasets: [{
             label: 'Data Pengajuan Cuti',
             data: [<?= $jml_ct ?>, <?= $jml_cu_besar ?>, <?= $jml_cu_sakit ?>, <?= $jml_cu_melahirkan ?>, <?= $jml_cu_urgent ?>, <?= $jml_cu_dtn ?>],
