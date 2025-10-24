@@ -8,7 +8,7 @@
   <meta name="author" content/>
   <title><?php echo $title; ?></title>
   <!-- Icon -->
-  <link rel="icon" type="image/x-icon" href="<?php echo base_url().'assets/dist/img/logo_ma.ico'; ?>" />
+  <link rel="icon" type="image/x-icon" href="<?php echo base_url().'assets/dist/img/logo_ptun.png'; ?>" />
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
